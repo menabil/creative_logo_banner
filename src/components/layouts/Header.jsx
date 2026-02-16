@@ -15,10 +15,10 @@ const Header = () => {
         <Container>
           <Flex className={"justify-between py-2"}>
             <Flex className={"text-white gap-x-3 items-end"}>
-              <p className="text-xl">Admission Going on</p>
+              <p className="font-semibold  mr-10">Admission Going On</p>
               <FaPhoneAlt className="text-lg" />
               <p className="font-semibold cursor-pointer">01791655368</p>
-              <MdMail className="font-sans font-bold" />
+              <MdMail className="text-xl" />
               <p className="lg:font-semibold font-medium cursor-pointer">
                 mr.nabil.dev@gmail.com
               </p>
@@ -41,7 +41,7 @@ const Header = () => {
           <Link to={"/"}>
             <Images imgSrc={logo} className={"w-fit"} />
           </Link>
-          <ul className="flex items-center gap-x-10 font-bold font-openSans">
+          <ul className="flex items-center gap-x-10 font-semibold font-openSans uppercase">
             <li>
               <Link to={"/"}> Home</Link>
             </li>
